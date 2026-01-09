@@ -195,11 +195,11 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 // ─────────────────────────────────────────────────────────────────
-// 📚 SIDEBAR - Clean Navigation
+// 📚 SIDEBAR - Clean Navigation (Fixed Hover States)
 // ─────────────────────────────────────────────────────────────────
 
 .side-bar {
-  background-color: #010409;
+  background-color: #010409 !important;
   border-right: 1px solid #21262d;
 }
 
@@ -208,23 +208,73 @@ ul ul, ol ol, ul ol, ol ul {
   font-weight: 700;
 }
 
-.nav-list-item {
-  .nav-list-link {
-    color: #8b949e;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    margin: 2px 0;
-    transition: all 0.15s ease;
-    
-    &:hover {
-      background-color: #161b22;
-      color: #e6edf3;
+// Fix navigation link colors for all states
+.nav-list {
+  .nav-list-item {
+    .nav-list-link {
+      color: #8b949e !important;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      margin: 2px 0;
+      transition: all 0.15s ease;
+      background-color: transparent !important;
+      
+      &:hover {
+        background-color: #21262d !important;
+        color: #ffffff !important;
+      }
+      
+      &:focus {
+        background-color: #21262d !important;
+        color: #ffffff !important;
+      }
+      
+      &.active {
+        background-color: #238636 !important;
+        color: #ffffff !important;
+        font-weight: 600;
+      }
     }
     
-    &.active {
-      background-color: #21262d;
-      color: #ffffff;
-      font-weight: 500;
+    // Child nav items
+    .nav-list {
+      .nav-list-item {
+        .nav-list-link {
+          color: #8b949e !important;
+          padding-left: 1.5rem;
+          
+          &:hover {
+            background-color: #21262d !important;
+            color: #ffffff !important;
+          }
+          
+          &.active {
+            background-color: #1f6feb !important;
+            color: #ffffff !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Override any theme default hover/focus states
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link.active {
+  color: #ffffff !important;
+}
+
+// Site nav specific overrides
+.site-nav {
+  background-color: #010409 !important;
+  
+  .nav-list-link {
+    color: #8b949e !important;
+    
+    &:hover {
+      color: #ffffff !important;
+      background-color: #21262d !important;
     }
   }
 }
