@@ -1,9 +1,12 @@
-title: LangChain Lecture Notes
+title: LangGraph Lecture Notes
 description: AI-generated lecture notes from transcripts
 baseurl: /LanggraphNotes
-url: https://SunilKumarPradhan.github.io/LanggraphNotes
+url: https://SunilKumarPradhan.github.io
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 # Theme settings
 color_scheme: dark
