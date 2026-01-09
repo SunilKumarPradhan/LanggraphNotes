@@ -1,46 +1,94 @@
 ---
-title: "LangChain Lecture Notes"
+title: Home
 layout: default
-nav_order: 0
-last_modified_date: 2026-01-09
+nav_order: 1
+description: "Comprehensive AI-generated lecture notes on LangGraph and Agentic AI"
+permalink: /
 ---
 
-# LangChain Lecture Notes
+# 🚀 LangGraph Lecture Notes
+{: .fs-9 }
 
-AI-generated lecture notes from transcripts
-
----
-
-## 📚 Available Notes
-
-- [Agentic AI using LangGraph: Complete Playlist Introduction](Agentic AI using LangGraph Complete Playlist Introduction.html)
-- [Complete Lecture Notes: Understanding Generative AI vs Agentic AI](Complete Lecture Notes Understanding Generative AI vs Agentic AI.html)
-- [Comprehensive Lecture Notes: Agentic AI using LangGraph](Comprehensive Lecture Notes Agentic AI using LangGraph.html)
-- [Complete Lecture Notes: LangChain vs LangGraph - Understanding Agentic AI Frameworks](Complete Lecture Notes LangChain vs LangGraph - Understanding Agentic AI Frameworks.html)
-- [LangGraph Core Concepts - Complete Lecture Notes](LangGraph Core Concepts - Complete Lecture Notes.html)
-- [Sequential Workflows in LangGraph](Sequential Workflows in LangGraph.html)
-- [Parallel Workflows in LangGraph](Parallel Workflows in LangGraph.html)
-- [Conditional Workflows in LangGraph](Conditional Workflows in LangGraph.html)
-- [Iterative Workflows in LangGraph](Iterative Workflows in LangGraph.html)
-- [Building a Chatbot using LangGraph](Building a Chatbot using LangGraph.html)
-- [Complete Guide to Persistence in LangGraph](Complete Guide to Persistence in LangGraph.html)
-- [Building a Chatbot with UI in LangGraph & Streamlit](Building a Chatbot with UI in LangGraph & Streamlit.html)
-- [Streaming in LangGraph](Streaming in LangGraph.html)
-- [Building a Resume Chat Feature Like ChatGPT with LangGraph](Building a Resume Chat Feature Like ChatGPT with LangGraph.html)
-- [LangGraph + SQLite: Building a Chatbot with Persistent Database Storage](LangGraph + SQLite Building a Chatbot with Persistent Database Storage.html)
-- [LangSmith Crash Course: Complete Lecture Notes](LangSmith Crash Course Complete Lecture Notes.html)
-- [Observability in LangGraph: LangSmith Integration](Observability in LangGraph LangSmith Integration.html)
-- [Tools in LangGraph: Building an Agentic AI Chatbot](Tools in LangGraph Building an Agentic AI Chatbot.html)
-- [Building MCP Clients using LangGraph for Agentic AI](Building MCP Clients using LangGraph for Agentic AI.html)
-- [RAG using LangGraph: Building a Multi-Utility Chatbot](RAG using LangGraph Building a Multi-Utility Chatbot.html)
-- [Human in the Loop (HITL) using LangGraph](Human in the Loop (HITL) using LangGraph.html)
-
-*21 notes available*
+Master Agentic AI with comprehensive, AI-generated notes from the complete LangGraph tutorial series.
+{: .fs-6 .fw-300 }
 
 ---
 
-## 🤖 About
+## 📖 Learning Path
 
-These notes were automatically generated from lecture transcripts using AI.
+Follow this recommended order to build your knowledge from basics to advanced concepts:
 
-Last updated: 2026-01-09 13:33
+### 🌱 Foundations
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 1 | [Playlist Introduction](Agentic%20AI%20using%20LangGraph%20Complete%20Playlist%20Introduction) | Overview of what you'll learn |
+| 2 | [Generative AI vs Agentic AI](Complete%20Lecture%20Notes%20Understanding%20Generative%20AI%20vs%20Agentic%20AI) | Understand the key differences |
+| 3 | [What is Agentic AI](Comprehensive%20Lecture%20Notes%20Agentic%20AI%20using%20LangGraph) | Deep dive into agentic concepts |
+| 4 | [LangChain vs LangGraph](Complete%20Lecture%20Notes%20LangChain%20vs%20LangGraph%20-%20Understanding%20Agentic%20AI%20Frameworks) | When to use which framework |
+
+### 🔧 Core Concepts
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 5 | [LangGraph Core Concepts](LangGraph%20Core%20Concepts%20-%20Complete%20Lecture%20Notes) | Essential building blocks |
+| 6 | [Sequential Workflows](Sequential%20Workflows%20in%20LangGraph) | Step-by-step processing |
+| 7 | [Parallel Workflows](Parallel%20Workflows%20in%20LangGraph) | Concurrent task execution |
+| 8 | [Conditional Workflows](Conditional%20Workflows%20in%20LangGraph) | Decision-based branching |
+| 9 | [Iterative Workflows](Iterative%20Workflows%20in%20LangGraph) | Loop-based patterns |
+
+### 🤖 Building Applications
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 10 | [Building a Chatbot](Building%20a%20Chatbot%20using%20LangGraph) | Your first LangGraph chatbot |
+| 11 | [Persistence & Time Travel](Complete%20Guide%20to%20Persistence%20in%20LangGraph) | State management & checkpoints |
+| 12 | [Chatbot with Streamlit UI](Building%20a%20Chatbot%20with%20UI%20in%20LangGraph%20%26%20Streamlit) | Adding a visual interface |
+| 13 | [Streaming Responses](Streaming%20in%20LangGraph) | Real-time token streaming |
+| 14 | [Resume Chat Feature](Building%20a%20Resume%20Chat%20Feature%20Like%20ChatGPT%20with%20LangGraph) | ChatGPT-like conversations |
+| 15 | [Database Integration](LangGraph%20%2B%20SQLite%20Building%20a%20Chatbot%20with%20Persistent%20Database%20Storage) | SQLite + LangGraph |
+
+### 🔍 Observability & Tools
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 16 | [LangSmith Crash Course](LangSmith%20Crash%20Course%20Complete%20Lecture%20Notes) | Debugging & monitoring |
+| 17 | [LangSmith Integration](Observability%20in%20LangGraph%20LangSmith%20Integration) | Production observability |
+| 18 | [Tools in LangGraph](Tools%20in%20LangGraph%20Building%20an%20Agentic%20AI%20Chatbot) | Extending agent capabilities |
+
+### 🚀 Advanced Topics
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 19 | [MCP Clients](Building%20MCP%20Clients%20using%20LangGraph%20for%20Agentic%20AI) | Model Context Protocol |
+| 20 | [RAG Chatbot](RAG%20using%20LangGraph%20Building%20a%20Multi-Utility%20Chatbot) | Retrieval Augmented Generation |
+| 21 | [Human in the Loop](Human%20in%20the%20Loop%20%28HITL%29%20using%20LangGraph) | Human oversight in AI systems |
+
+---
+
+## ✨ Features
+
+> **🌙 Night Mode Optimized** - Dark theme designed for comfortable late-night learning on mobile devices
+
+> **🔍 Full-Text Search** - Quickly find any topic using the search bar
+
+> **📱 Mobile Friendly** - Responsive design works great on phones and tablets
+
+---
+
+## 📊 Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| 📚 Total Notes | 21 |
+| 🎯 Topics Covered | LangGraph, LangChain, Agentic AI |
+| 🔄 Last Updated | January 9, 2026 |
+| 🤖 Generated By | NoteyBoy AI |
+
+---
+
+## 💡 About This Project
+
+These notes are **AI-generated** from YouTube lecture transcripts using [NoteyBoy](https://github.com/SunilKumarPradhan), an automated note-generation system built with LangGraph itself!
+
+*Perfect for revision, quick reference, or learning at your own pace.*
